@@ -42,7 +42,7 @@ function Particle() {
         },
         "fullScreen": {
           "enable": true,
-          "zIndex": 1
+          "zIndex": -1
         },
         "detectRetina": true,
         "duration": 0,

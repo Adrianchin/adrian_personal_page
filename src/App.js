@@ -6,6 +6,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Particle from "./Particles";
 import Footer from './components/Footer/Footer';
 import "./style.css";
+import { Container} from "react-bootstrap";
+import Header from './components/Header/Header';
 
 function App() {
 
@@ -13,15 +15,18 @@ function App() {
     <div className="App">
       <Particle/>
       <div>
-        <Navigation/>
+        {/*<Navigation/>*/}
       </div>
-      <div>
-      <Home/>
-      {/*<About/>
-      <Projects/>
-      <Contact/> */}
-      </div>
-      <Footer/>
+      <Container>
+        <div>
+          <Header/>
+          <Home/>
+          {/*<About/>
+          <Projects/>
+          <Contact/> */}
+        </div>
+        <Footer/>
+      </Container>
     </div>
   );
 }

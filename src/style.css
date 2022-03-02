@@ -9,10 +9,8 @@
 /* Global */
 .generalcontainer1 {
   border: 5px solid rgb(255, 238, 0);
-  padding-top: 1rem !important;
-  padding-right: 2rem !important;
+  padding-top: .5rem !important;
   padding-bottom: .5rem !important;
-  padding-left: 2rem !important;
 }
 
 .generalrow1{
@@ -27,7 +25,7 @@
   text-align: left;
 }
 
-.generaldiv{
+.generaldiv1{
   padding-top: 2rem;
   padding-bottom: 2rem; 
   padding-left: 3rem; 
@@ -67,16 +65,14 @@
 /* About Me */
 .hellobox {
   border: 5px solid rgb(0, 0, 0);
-  background: #ffffff;
-  padding-bottom: 10px !important;
-  padding-top: 10px !important;
+}
+
+.aboutmeinformation{
+  border: 5px solid rgb(58, 12, 226);
 }
 
 .aboutmehomebox {
   border: 5px solid rgb(0, 0, 0);
-  background: #ffffff;
-  padding-bottom: 1rem !important;
-  padding-top: 1rem !important;
 }
 
 .aboutmetitle {
@@ -106,25 +102,58 @@
 .projectdescription{
   text-align: left
 }
+
+/* Developer Tools */
+.tool-icons {
+  font-size: 5rem !important;
+  margin: 1rem !important;
+  padding: 1rem !important;
+  opacity: 1 !important;
+  border: 2px solid rgba(5, 165, 170, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 88, 81, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+.tool-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(0, 247, 255, 0.883) !important;
+}
+.tool-icon-images {
+  padding: 1rem !important;
+  line-height: 2 !important;
+}
+
 /* --------- */
 /* Footer */
 /* --------- */
 
 .footer {
   position: static;
-  padding: 1rem;
+  padding-top: 1rem;
   border: 1px solid var(--color-stroke);
   bottom: 0;
   width: 100%;
   color: rgb(0, 0, 0);
   text-align: center;
 }
+.cardbackground{
+  background: #ffffff;
+  z-index: 0;
+}
 
 .footerbackground {
-  background-image: url("./information/pictures/Fuji.png");
+  background-image: url("./information/pictures/Fuji_Old.png");
   background-size:     cover;                 
   background-repeat:   no-repeat;
-  background-position: center center;
+  background-position: bottom center;
+  opacity: .85;
+  z-index: 1;
 }
 
 /* etc. */
