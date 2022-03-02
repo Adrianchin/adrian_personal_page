@@ -1,0 +1,154 @@
+.spacesaver{
+  padding: 10rem;
+}
+
+/* --------- */
+/* Home section */
+/* --------- */
+
+/* Global */
+.generalcontainer1 {
+  border: 5px solid rgb(255, 238, 0);
+  padding-top: 1rem !important;
+  padding-right: 2rem !important;
+  padding-bottom: .5rem !important;
+  padding-left: 2rem !important;
+}
+
+.generalrow1{
+  border: 5px solid rgb(161, 41, 41);
+  padding: .3rem !important;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 2px 1px 1px rgb(0, 98, 122);
+}
+
+.generaltitle1 {
+  text-align: left;
+}
+
+.generaldiv{
+  padding-top: 2rem;
+  padding-bottom: 2rem; 
+  padding-left: 3rem; 
+  padding-right: 3rem;
+}
+
+/* Title */
+.titlemain {
+  border: 5px solid rgb(255, 238, 0);
+  padding-top: 1rem !important;
+  padding-right: 2rem !important;
+  padding-bottom: .5rem !important;
+  padding-left: 2rem !important;
+}
+
+.titlerow{
+  border: 5px solid rgb(161, 41, 41);
+  padding: .3rem !important;
+  border-radius: 5px;
+}
+
+.iconrow{
+  border: 5px solid rgb(58, 12, 226);
+  padding: .3rem !important;
+  border-radius: 5px;
+}
+
+.iconspace{
+  border: 5px solid rgb(60, 163, 39);
+}
+
+
+.titlemainname{
+  text-align: center;
+}
+
+/* About Me */
+.hellobox {
+  border: 5px solid rgb(0, 0, 0);
+  background: #ffffff;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+}
+
+.aboutmehomebox {
+  border: 5px solid rgb(0, 0, 0);
+  background: #ffffff;
+  padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
+}
+
+.aboutmetitle {
+  text-align: center;
+}
+
+.aboutmedesctiption {
+  text-align: left;
+  padding-left: 2rem !important;
+  padding-bottom: 2rem !important;
+  padding-top: 1rem !important;
+}
+
+/*Projects*/
+.projectscontainer {
+  border: 5px solid rgb(255, 238, 0);
+  padding-top: .5rem;
+  padding-right: 2rem;
+  padding-bottom: .5rem;
+  padding-left: 2rem;
+}
+
+.projecttitle{
+  text-align: left
+}
+
+.projectdescription{
+  text-align: left
+}
+/* --------- */
+/* Footer */
+/* --------- */
+
+.footer {
+  position: static;
+  padding: 1rem;
+  border: 1px solid var(--color-stroke);
+  bottom: 0;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.footerbackground {
+  background-image: url("./information/pictures/Fuji.png");
+  background-size:     cover;                 
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+/* etc. */
+  .row1 {
+    border: 5px solid rgb(0, 0, 0);
+  }
+
+  .row2{
+    border: 5px solid rgb(255, 0, 0);
+  }
+
+  .column1 {
+    border: 5px solid rgb(0, 255, 55);
+  }
+
+  .column2{
+    border: 5px solid rgb(255, 238, 0);
+    padding: 3rem;
+  }
+
+  .div1 {
+    border: 5px solid rgb(255, 0, 242);
+  }
+
+  .div2{
+    border: 5px solid rgb(25, 0, 255);
+  }
