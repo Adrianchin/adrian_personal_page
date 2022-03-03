@@ -42,7 +42,7 @@ function Particle() {
         },
         "fullScreen": {
           "enable": true,
-          "zIndex": -1
+          "zIndex": -2
         },
         "detectRetina": true,
         "duration": 0,
@@ -360,7 +360,7 @@ function Particle() {
             "density": {
               "enable": true,
               "area": 800,
-              "factor":200
+              "factor":1000
             },
             "limit": 0,
             "value": 100
