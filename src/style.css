@@ -35,7 +35,7 @@
 .backgroundcover{
   background-image: url("./information/pictures/me_ride.jpg");
   background-size: cover;
-  opacity: .90;
+  opacity: 1;
   background-repeat: no-repeat;
   position: absolute;
   z-index: -1;
@@ -43,16 +43,16 @@
   width: 100%;
   left: 0;
   right: 0;
-  bottom: 20%;
-  box-shadow: inset 0 -20px 60px 20px #48929B;
+  bottom: 0%;
+  box-shadow: inset 0 -40px 50px 5px #a5a5a5;
 }
 
 /* Title */
 .titlemain {
   border: 5px solid rgb(255, 238, 0);
-  padding-top: 10rem !important;
+  padding-top: 20rem !important;
   padding-right: 2rem !important;
-  padding-bottom: 10rem !important;
+  padding-bottom: 20rem !important;
   padding-left: 2rem !important;
 }
 
