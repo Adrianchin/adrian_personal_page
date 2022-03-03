@@ -7,28 +7,31 @@ import Particle from "./Particles";
 import Footer from './components/Footer/Footer';
 import "./style.css";
 import { Container} from "react-bootstrap";
-import Header from './components/Header/Header';
-import BackgroundPic from './components/BackgroundPic/BackgroundPic';
+import Frontpage from './components/Frontpage/Frontpage';
 
 function App() {
 
   return (
     <div className="App">
       {/*<Particle/>*/}
-      <div>
-        {/*<Navigation/>*/}
-      </div>
-      <BackgroundPic/>
-      <Container>
+      {/*<Navigation/>*/}
+
+      {/* frontpage 
+
+      <Frontpage/>
+
+      frontpage */}
+
+     {/* <BackgroundPic/> */}
+      <Container className="column1">
         <div>
-          <Header/>
-          <Home/>
+          <Home/> 
           {/*<About/>
           <Projects/>
           <Contact/> */}
+          <Footer/>
         </div>
-        <Footer/>
-      </Container>
+      </Container> 
     </div>
   );
 }

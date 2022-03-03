@@ -3,14 +3,45 @@
 }
 
 /* --------- */
+/* Front Page */
+/* --------- */
+
+.Frontpage{
+  background-image: url("./information/pictures/Frontpage.jpg");
+  background-size: cover;
+  opacity: 1;
+  justify-content: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0%;
+  box-shadow: inset 0 -40px 50px 5px #7a7a7a;
+}
+
+.frontpagealign{
+  flex-grow:1;
+
+}
+
+.frontpagecontainer{
+  display:flex;
+  align-items: center;
+  height: 40vh;
+}
+
+/* --------- */
 /* Home section */
 /* --------- */
 
 /* Global */
 .generalcontainer1 {
   border: 5px solid rgb(255, 238, 0);
-  padding-top: .5rem !important;
-  padding-bottom: .5rem !important;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
 }
 
 .generalrow1{
@@ -37,6 +68,7 @@
   background-size: cover;
   opacity: 1;
   justify-content: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   position: absolute;
   z-index: -1;
@@ -48,12 +80,16 @@
   box-shadow: inset 0 -40px 50px 5px #7a7a7a;
 }
 
+.positionmain{
+  position: absolute;
+}
+
 /* Title */
 .titlemain {
   border: 5px solid rgb(255, 238, 0);
-  padding-top: 20rem !important;
+  padding-top: 1rem !important;
   padding-right: 2rem !important;
-  padding-bottom: 20rem !important;
+  padding-bottom: 30rem !important;
   padding-left: 2rem !important;
 }
 
@@ -74,8 +110,8 @@
 }
 
 
-.titlemainname{
-  text-align: center;
+.titlemaininfo{
+  text-align: right;
 }
 
 /* About Me */
@@ -196,4 +232,12 @@
 
   .div2{
     border: 5px solid rgb(25, 0, 255);
+  }
+
+  .container1 {
+    border: 5px solid rgb(183, 0, 255);
+  }
+
+  .container2{
+    border: 5px solid rgb(49, 0, 47);
   }
