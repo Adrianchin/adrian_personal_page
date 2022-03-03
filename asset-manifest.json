@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/adrian_personal_page/static/css/main.5ede25ae.css",
+    "main.css": "/adrian_personal_page/static/css/main.4cb7e37b.css",
     "main.js": "/adrian_personal_page/static/js/main.c50ebde8.js",
     "static/js/415.13349a56.chunk.js": "/adrian_personal_page/static/js/415.13349a56.chunk.js",
     "static/js/787.d36f9bca.chunk.js": "/adrian_personal_page/static/js/787.d36f9bca.chunk.js",
@@ -10,13 +10,13 @@
     "static/media/me_ride.jpg": "/adrian_personal_page/static/media/me_ride.95e8e0e61263a64d2497.jpg",
     "static/media/Sakura.jpg": "/adrian_personal_page/static/media/Sakura.34f99876e65c6438b16d.jpg",
     "index.html": "/adrian_personal_page/index.html",
-    "main.5ede25ae.css.map": "/adrian_personal_page/static/css/main.5ede25ae.css.map",
+    "main.4cb7e37b.css.map": "/adrian_personal_page/static/css/main.4cb7e37b.css.map",
     "main.c50ebde8.js.map": "/adrian_personal_page/static/js/main.c50ebde8.js.map",
     "415.13349a56.chunk.js.map": "/adrian_personal_page/static/js/415.13349a56.chunk.js.map",
     "787.d36f9bca.chunk.js.map": "/adrian_personal_page/static/js/787.d36f9bca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ede25ae.css",
+    "static/css/main.4cb7e37b.css",
     "static/js/main.c50ebde8.js"
   ]
 }
