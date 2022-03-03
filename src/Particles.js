@@ -93,7 +93,7 @@ function Particle() {
             "connect": {
               "distance": 80,
               "links": {
-                "opacity": 0.5
+                "opacity": 1
               },
               "radius": 60
             },
@@ -359,8 +359,8 @@ function Particle() {
           "number": {
             "density": {
               "enable": true,
-              "area": 1000,
-              "factor":1000
+              "area": 800,
+              "factor":200
             },
             "limit": 0,
             "value": 100

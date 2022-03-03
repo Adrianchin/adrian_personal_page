@@ -8,15 +8,17 @@ import Footer from './components/Footer/Footer';
 import "./style.css";
 import { Container} from "react-bootstrap";
 import Header from './components/Header/Header';
+import BackgroundPic from './components/BackgroundPic/BackgroundPic';
 
 function App() {
 
   return (
     <div className="App">
-      <Particle/>
+      {/*<Particle/>*/}
       <div>
         {/*<Navigation/>*/}
       </div>
+      <BackgroundPic/>
       <Container>
         <div>
           <Header/>

@@ -7,10 +7,10 @@ function GithubCal() {
     background: "transparent",
     text: "#ffffff",
     level0: '#F0F0F0',
-    level1: '#C4EDDE',
-    level2: '#7AC7C4',
-    level3: '#F73859',
-    level4: '#384259'
+    level1: '#5D8CAE',
+    level2: '#48929B',
+    level3: '#006C7F',
+    level4: '#264348'
   };
   return (
     <Row style={{ justifyContent: "center"}}>

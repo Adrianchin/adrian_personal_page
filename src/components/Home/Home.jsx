@@ -1,8 +1,10 @@
 import React from 'react';
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Stack } from "react-bootstrap";
 import Type from './Type';
 import mePicture from "../../information/pictures/me_picture.jpg";
-import Fuji from "../../information/pictures/Fuji.png";
+import Fuji from "../../information/pictures/Fuji3.png";
+import Sakura from "../../information/pictures/Sakura.jpg";
+import Sakura3 from "../../information/pictures/Sakura3.png";
 import GithubCal from "./GithubCal";
 import ProfessionalTools from "./ProfessionalTools";
 
@@ -59,7 +61,7 @@ const Home = () => {
                                     </Col>
                                     <Col md={4} className="column1">
                                         <img 
-                                            src={Fuji} 
+                                            src={Sakura} 
                                             className="img-fluid"
                                         />
                                         <h5 className="projecttitle">
@@ -71,7 +73,7 @@ const Home = () => {
                                     </Col>
                                     <Col md={4} className="column1">
                                         <img 
-                                            src={Fuji} 
+                                            src={Sakura3} 
                                             className="img-fluid"
                                         />
                                         <h5 className="projecttitle">
@@ -154,7 +156,7 @@ const Home = () => {
                                     </h1>
                                 </Row>
                                 <Row>
-                                <Col className="column1">
+                                <Col className="column1 ">
                                        <ProfessionalTools/>
                                     </Col>
                                 </Row>
