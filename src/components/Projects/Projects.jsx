@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Stack } from "react-bootstrap";
 
+import ProjectBackgroundPicture from "./ProjectBackground/ProjectBackground";
+
 import Fuji from "../../information/pictures/Fuji3.png";
 import Sakura from "../../information/pictures/Sakura.jpg";
 import Sakura3 from "../../information/pictures/Sakura3.png";
@@ -8,57 +10,82 @@ import Sakura3 from "../../information/pictures/Sakura3.png";
 function Projects () {
 
     return (
-        <Container fluid className="generalcontainer1">
-            <Row className="generalrow1">
-                <div className={"generaldiv"} >
-                    <Row>
-                        <h1 className="generaltitle1">
-                            Projects
-                        </h1>
-                    </Row>
-                    <Row className="align-items-center">
-                        <Col md={8} className="column1">
-                                <img 
-                                    src={Fuji} 
-                                    className="img-fluid"
-                                />
-                                <h5 className="projecttitle">
-                                    Hello!
-                                </h5>
-                                <p className="projectdescription">
-                                    This is my project
-                                </p>
-                        </Col>
-                        <Col md={4} className="column1">
-                                <img 
-                                    src={Sakura} 
-                                    className="img-fluid"
-                                />
-                                <h5 className="projecttitle">
-                                    Hello!
-                                </h5>
-                                <p className="projectdescription">
-                                    This is my project
-                                </p>
-                        </Col>
-                    </Row>
-                    <Row className="align-items-center">
-                        <Col md={12} className="column1">
-                            <img 
-                                src={Sakura3} 
-                                className="img-fluid"
-                            />
-                            <h5 className="projecttitle">
-                                Hello!
-                            </h5>
-                            <p className="projectdescription">
-                                This is my project
-                            </p>
-                        </Col>
-                    </Row>
-                </div>
-            </Row>
-        </Container>
+        <section>
+            <ProjectBackgroundPicture/>
+            <Container fluid className="projectcontainer"> 
+                    <Col md={7}>
+                    </Col>
+                    <Col md={5}>
+                        <Stack gap={2} className="projectstack">
+                            <Row>
+                                <h1 className="projecttitle">
+                                    Projects
+                                </h1>
+                            </Row>
+                            <Row>
+                                <Col md={7}>
+                                    <div className="projectdescription column1">
+                                        <h5 className="projectname">
+                                            Hello!
+                                        </h5>
+                                        <p className="projectdetails">
+                                            This is my project
+                                        </p>
+                                    </div>
+                                </Col>
+                                <Col md={5}>
+                                    <div className="projectcard column1">
+                                        <img 
+                                            src={Fuji} 
+                                            className="img-fluid"
+                                        />
+                                    </div>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col md={7}>
+                                    <div className="projectdescription column1">
+                                        <h5 className="projectname">
+                                            Hello!
+                                        </h5>
+                                        <p className="projectdetails">
+                                            This is my project
+                                        </p>
+                                    </div>
+                                </Col>
+                                <Col md={5}>
+                                    <div className=" column1">
+                                        <img 
+                                            src={Sakura} 
+                                            className="img-fluid"
+                                        />
+                                    </div>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col md={7}>
+                                    <div className="projectdescription column1">
+                                        <h5 className="projectname">
+                                            Hello!
+                                        </h5>
+                                        <p className="projectdetails">
+                                            This is my project
+                                        </p>
+                                    </div>
+                                </Col>
+                                <Col md={5}>
+                                    <div className="projectcard column1">
+                                        <img 
+                                            src={Sakura3} 
+                                            className="img-fluid"
+                                        />
+                                    </div>
+                                </Col>
+                            </Row>
+                        </Stack>
+                    </Col>
+            </Container>
+        </section>
     );
 }
 
