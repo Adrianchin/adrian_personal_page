@@ -14,7 +14,7 @@ import Contact from './components/Contact/Contact';
 
 /* Note: This is constructed as a const first so when I impliment signin and signout, i can reset user settings */
 const adrianState={
-  route:'about',
+  route:'home',
   isSignedIn:false
 }
 
