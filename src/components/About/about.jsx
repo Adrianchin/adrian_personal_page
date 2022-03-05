@@ -14,14 +14,14 @@ function About () {
 
     return (
         <section>
-            <Container className="column2">
-                        <BackgroundPic/>
-                        <Header/>
-                        <AboutAdrian/>
-                        <Languages/>
-                        <Education/>
-                        <DeveloperTools/>
-                        <GitHub/>
+            <Container>
+            <BackgroundPic/>
+                <Header/>
+                <AboutAdrian/>
+                <Languages/>
+                <Education/>
+                <DeveloperTools/>
+                <GitHub/>
             </Container>
         </section>
     );

@@ -8,7 +8,7 @@ function DeveloperTools () {
         
         <Container fluid className="generalcontainer1">
             <Row className="generalrow1">
-                <div className={"generaldiv"} >
+                <div>
                     <Row>
                         <h1 className="generaltitle1">
                             Developer Tools

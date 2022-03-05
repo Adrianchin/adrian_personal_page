@@ -1,15 +1,23 @@
+/* --------- */
+/* Navbar */
+/* --------- */
+.navbar{
+  background: #ffffff;
+}
 
 /* --------- */
-/* Front Page */
+/* Home */
 /* --------- */
 
-.Frontpage{
-  background-image: url("./information/pictures/Frontpage.jpg");
+.home{
+  background-image: url("./information/pictures/work_together-black.jpg");
   background-size: cover;
   opacity: 1;
   justify-content: center;
+  background-attachment: fixed;
+  background-position:center;
   background-repeat: no-repeat;
-  position: absolute;
+  position: fixed;
   z-index: -1;
   top: 0;
   width: 100%;
@@ -18,14 +26,15 @@
   bottom: 0%;
 }
 
-.frontpagealign{
+.homealign{
   flex-grow:1;
+  text-align: left;
 }
 
-.frontpagecontainer{
+.homecontainer{
   display:flex;
   align-items: center;
-  height: 40vh;
+  height: 100vh;
 }
 
 /* --------- */
@@ -35,13 +44,10 @@
 /* Global */
 .generalcontainer1 {
   border: 5px solid rgb(48, 207, 0);
-  padding-top: 0rem;
-  padding-bottom: 0rem;
 }
 
 .generalrow1{
   border: 5px solid rgb(161, 41, 41);
-  padding: .3rem;
   background: #ffffff;
   border-radius: 5px;
   box-shadow: 2px 1px 1px rgb(0, 98, 122);
@@ -51,51 +57,58 @@
   text-align: left;
 }
 
-.generaldiv1{
-  padding-top: 1em;
-  padding-bottom: 1rem; 
-  padding-left: 1rem; 
-  padding-right: 1rem;
-}
-
 .aboutmebackgroundcover{
-  background-image: url("./information/pictures/me_ride.jpg");
+  background-image: url("./information/pictures/race.jpg");
   background-size: cover;
   opacity: 1;
   justify-content: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  position: absolute;
+  position: fixed;
   z-index: -1;
-  top: 0;
+  top: 0%;
   width: 100%;
   left: 0;
   right: 0;
   bottom: 0%;
+  box-shadow: inset 0 -40px 50px 5px #7a7a7a;
 }
 
 .positionmain{
   position: absolute;
 }
 
+.personalpagepadding{
+  padding-left:2vh;
+  padding-right:2vh;
+}
+
 /* Title */
-.titlemain {
+.headercontainer {
   border: 5px solid rgb(255, 238, 0);
-  padding-top: 1rem !important;
-  padding-right: 2rem !important;
-  padding-bottom: 50rem !important;
-  padding-left: 2rem !important;
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .titlerow{
   border: 5px solid rgb(161, 41, 41);
-  padding: .3rem !important;
-  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titlecolumn{
+  border: 5px solid rgb(161, 41, 41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .iconrow{
   border: 5px solid rgb(58, 12, 226);
-  padding: .3rem !important;
+  padding: .3rem;
   border-radius: 5px;
 }
 
@@ -117,35 +130,25 @@
   border: 5px solid rgb(58, 12, 226);
 }
 
-.aboutmehomebox {
-  border: 5px solid rgb(0, 0, 0);
-}
-
 .aboutmetitle {
   text-align: center;
 }
 
+.aboutmehomebox{
+  max-width: 100%;
+  height: auto;
+}
+
 .aboutmedesctiption {
   text-align: left;
-  padding-left: 2rem !important;
-  padding-bottom: 2rem !important;
-  padding-top: 1rem !important;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
 }
-
-/*Projects*/
-.projectscontainer {
-  border: 5px solid rgb(255, 238, 0);
-  padding-top: .5rem;
-  padding-right: 2rem;
-  padding-bottom: .5rem;
-  padding-left: 2rem;
-}
-
-
 
 /* Developer Tools */
 .tool-icons {
-  font-size: 5rem !important;
+  font-size: 5rem;
   margin: .5rem !important;
   padding: 1rem !important;
   opacity: 1 !important;
@@ -173,31 +176,24 @@
 
 .footer {
   position: static;
-  padding-top: 1rem;
   border: 1px solid var(--color-stroke);
   bottom: 0;
   width: 100%;
-  color: rgb(0, 0, 0);
   text-align: center;
 }
-.cardbackground{
-  background: #ffffff;
-  z-index: 0;
-}
-
-.footerbackground {
-  background-image: url("./information/pictures/Sakura3.png");
-  background-size:     cover;                 
-  background-repeat:   no-repeat;
-  background-position: bottom center;
-  opacity: .85;
-  z-index: 1;
-}
-
 
 /* --------- */
 /* Projects section */
 /* --------- */
+
+/*Projects*/
+.projectscontainer {
+  border: 5px solid rgb(255, 238, 0);
+  padding-top: .5rem;
+  padding-right: 2rem;
+  padding-bottom: .5rem;
+  padding-left: 2rem;
+}
 
 .projectbackgroundcover{
   background-image: url("./information/pictures/lets_ride.jpg");
@@ -205,7 +201,7 @@
   opacity: 1;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  position: absolute;
+  position: fixed;
   z-index: -1;
   top: 0;
   background-position:center;
@@ -221,13 +217,12 @@
   display:flex;
   align-items: center;
   flex-direction: row;
-  height:100vh;
+  min-height:100vh;
 }
 
 .projectstack{
   border: 5px solid rgb(136, 2, 91);
   display:flex;
-  max-height:100vh;
 }
 
 .projecttitle{
@@ -245,6 +240,45 @@
 .projectdetails{
   text-align: left
 }
+
+
+/* --------- */
+/* Contact Me */
+/* --------- */
+
+.contactbackgroundcover{
+  background-image: url("./information/pictures/me_ride.jpg");
+  background-size: cover;
+  opacity: 1;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  background-position:center;
+  height: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 -30px 40px 10px #7a7a7a;
+}
+
+.contactcontainer{
+  display:flex;
+  align-items: flex-end;
+  min-height: 100vh;
+}
+
+.contactrow{
+  display:flex;
+  align-items: center;
+  height: 100vh;
+}
+
+/* --------- */
+/* Nav Bar */
+/* --------- */
+
 
 /* etc. */
   .row1 {

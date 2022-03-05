@@ -5,7 +5,7 @@ function Education () {
     return (
         <Container fluid className="generalcontainer1">
             <Row className="generalrow1">
-                <div className={"generaldiv"} >
+                <div>
                     <Row>
                         <h1 className="generaltitle1">
                             Education
@@ -17,7 +17,7 @@ function Education () {
                                 <strong>University of Calgary</strong>
                             </p>
                             <p className="projectdescription">
-                                Bachlor of Mechanical Engineering - 2019
+                                Bachelor of Mechanical Engineering - 2019
                             </p>
                         </Col>
                         <Col md={6} className="column1">

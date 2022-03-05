@@ -5,19 +5,16 @@ import Type from "./Type";
 const Header = () => {
     return (
         <section>
-            <Container fluid className="titlemain">
-                <Col md={6}>
+            <Container fluid className="headercontainer">
                     <Row className="titlerow ">
-                        <div style={{ padding: 50, textAlign: "right" }}>
+                        <div style={{textAlign: "center" }}>
+                            <h1>Adrian Chin</h1>
                             <h1>Full Stack Developer</h1>
                             <h1>Mechanical Engineer</h1>
                             <h1>Triathlete</h1>
                             {/*<Type/>*/}
                         </div>
                     </Row>
-                </Col>
-                <Col md={6}>
-                </Col>
             </Container>
         </section>
     );
