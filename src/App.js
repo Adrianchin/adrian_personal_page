@@ -24,7 +24,7 @@ class App extends Component {
     this.state=adrianState
   }
 
-  onRouteChange=(route)=>{
+  onRouteChange = (route) => {
     this.setState({route : route});
   }
   
