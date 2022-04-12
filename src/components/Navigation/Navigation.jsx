@@ -1,16 +1,16 @@
 import React from 'react';
 
-const Navigation = ({onRouteChange}) => {
+const Navigation = ({routeChange}) => {
     return (
         
             <nav style = {{display:'flex', justifyContent: 'flex-end'}} className="navbar">
-                <b onClick={()=> onRouteChange('home')}>Home</b>
+                <b onClick={()=> routeChange('home')}>Home</b>
 
-                <b onClick={()=> onRouteChange('about')}>About</b>
+                <b onClick={()=> routeChange('about')}>About</b>
 
-                <b onClick={()=> onRouteChange('projects')}>Projects</b>
+                <b onClick={()=> routeChange('projects')}>Projects</b>
 
-                <b onClick={()=> onRouteChange('contact')}>Contact</b>
+                <b onClick={()=> routeChange('contact')}>Contact</b>
             </nav>
         
     );
